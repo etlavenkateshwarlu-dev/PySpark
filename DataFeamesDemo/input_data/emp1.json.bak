@@ -1,0 +1,9 @@
+{
+      "emp_id": 101,
+      "emp_name": "Amit Sharma",
+      "personal_info": {
+        "gender": "Male",
+        "phone": "9876543210"
+        }	  
+	  
+}

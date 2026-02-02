@@ -1,0 +1,28 @@
+gs://vctbatch-45-dataset/employee_1.csv
+gsutil cp StructFieldExmaple.py gs://vctbatch-45-scripts/py_spark_scripts/
+
+gcloud dataproc jobs submit pyspark gs://vctbatch-45-scripts/py_spark_scripts/StructFieldExmaple.py \
+--cluster=vctbatch-45-dataproc-cluster \
+--region=us-central1
+
+
+gs://vctbatch-45-scripts/GCSToBigQueryDataloadPipeline.py
+
+
+
+gcloud dataproc jobs submit pyspark gs://vctbatch-45-scripts/GCSToBigQueryDataloadPipeline.py \
+--cluster=vctbatch-45-dataproc-cluster \
+--region=us-central1
+
+gcloud dataproc clusters describe vctbatch-45-dataproc-cluster \
+--region=us-central1 \
+--format="value(config.gceClusterConfig.serviceAccount)"
+
+
+===============service account ========
+DISPLAY NAME                            EMAIL                                               DISABLED
+Compute Engine default service account  817049396346-compute@developer.gserviceaccount.com  False
+Dataproc Cluster SA                     dataproc-sa@vctbatch-45.iam.gserviceaccount.com     False
+vctbatch-45                             vctbatch-45@vctbatch-45.iam.gserviceaccount.com     False
+
+

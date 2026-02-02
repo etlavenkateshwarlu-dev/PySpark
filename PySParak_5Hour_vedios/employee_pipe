@@ -1,0 +1,11 @@
+emp_id|first_name|last_name|department|job_title|location|gender|hire_date|salary|manager_id
+E1001|Rahul|Sharma|Engineering|Data Engineer|Bangalore|M|2021-03-15|1200000|E2001
+E1002|Priya|Verma|Engineering|Backend Developer|Hyderabad|F|2022-07-10|950000|E2001
+E1003|Ankit|Patel|Finance|Financial Analyst|Mumbai|M|2020-01-20|850000|E2002
+E1004|Neha|Reddy|HR|HR Executive|Hyderabad|F|2023-02-05|600000|E2003
+E1005|Vikram|Singh|Engineering|DevOps Engineer|Bangalore|M|2019-11-12|1100000|E2001
+E1006|Sneha|Iyer|Marketing|Marketing Analyst|Chennai|F|2021-08-25|700000|E2004
+E1007|Amit|Gupta|Sales|Sales Executive|Delhi|M|2022-04-18|650000|E2005
+E1008|Kiran|Nayak|Engineering|Data Scientist|Bangalore|M|2020-06-30|1300000|E2001
+E1009|Meera|Joshi|Finance|Accounts Manager|Pune|F|2018-09-10|900000|E2002
+E1010|Arjun|Malhotra|Engineering|Software Tester|Hyderabad|M|2023-05-22|550000|E2001

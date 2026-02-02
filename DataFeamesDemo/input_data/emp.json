@@ -1,0 +1,67 @@
+{
+  "employees": [
+    {
+      "emp_id": 101,
+      "emp_name": "Amit Sharma",
+      "personal_info": {
+        "gender": "Male",
+        "dob": "1992-05-14",
+        "contact": {
+          "email": "amit.sharma@company.com",
+          "phone": "9876543210"
+        }
+      },
+      "job_info": {
+        "department": "IT",
+        "designation": "Data Engineer",
+        "salary": 85000,
+        "joining_date": "2021-06-15",
+        "location": {
+          "city": "Bangalore",
+          "state": "Karnataka",
+          "country": "India"
+        }
+      },
+      "skills": ["Python", "PySpark", "SQL", "AWS"],
+      "projects": [
+        {
+          "project_id": "P1001",
+          "project_name": "Data Lake Migration",
+          "role": "Lead Engineer",
+          "duration_months": 12
+        },
+        {
+          "project_id": "P1002",
+          "project_name": "Streaming Analytics",
+          "role": "Contributor",
+          "duration_months": 6
+        }
+      ]
+    },
+    {
+      "emp_id": 102,
+      "emp_name": "Sneha Reddy",
+      "personal_info": {
+        "gender": "Female",
+        "dob": "1994-09-21",
+        "contact": {
+          "email": "sneha.reddy@company.com",
+          "phone": "9123456789"
+        }
+      },
+      "job_info": {
+        "department": "HR",
+        "designation": "HR Manager",
+        "salary": 65000,
+        "joining_date": "2020-03-10",
+        "location": {
+          "city": "Hyderabad",
+          "state": "Telangana",
+          "country": "India"
+        }
+      },
+      "skills": ["Recruitment", "Employee Relations", "Payroll"],
+      "projects": []
+    }
+  ]
+}

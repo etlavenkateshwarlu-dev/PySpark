@@ -1,0 +1,45 @@
+{
+      "emp_id": 101,
+      "emp_name": "Amit Sharma",
+      "personal_info": {
+        "gender": "Male",
+        "phone": "9876543210"
+        }	  
+	  
+}
+{
+      "emp_id": 102,
+      "emp_name": "Ri Sharma",
+      "personal_info": {
+        "gender": "Female",
+        "phone": "9876543210"
+        }	  
+	  
+}
+{
+      "emp_id": 103,
+      "emp_name": "Amit Sharma",
+      "personal_info": {
+        "gender": "Male",
+        "phone": "9876543210"
+        }	  
+	  
+}
+{
+      "emp_id": 104,
+      "emp_name": "Amit Sharma",
+      "personal_info": {
+        "gender": "Male",
+        "phone": "9876543210"
+        }	  
+	  
+}
+{
+      "emp_id": 105,
+      "emp_name": "Amit Sharma",
+      "personal_info": {
+        "gender": "Male",
+        "phone": "9876543210"
+        }	  
+	  
+}
